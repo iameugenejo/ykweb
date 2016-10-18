@@ -1,0 +1,22 @@
+title: Home
+
+intro: Affordable Quality services for Small Businesses
+
+buttons:
+  - link: \#works
+    title: Our Works
+    color: red
+  - link: \#pricingtable
+    title: Our Packages
+    color: green
+
+# icon from http://fontawesome.io/icons/
+messages:
+  - message: Fixed price for packages
+    icon: fontawesome-webfont-358
+
+  - message: Quality product in time
+    icon: fontawesome-webfont-286
+
+  - message: Satisfaction guranteed
+    icon: fontawesome-webfont-347
