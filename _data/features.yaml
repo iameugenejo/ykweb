@@ -1,1 +1,30 @@
-title: Features
+menu: Features
+title: FEATURES
+description: We design & develop qaulity products to help small & medium level business.
+
+# images are under images/features/*.png
+left_features:
+  - title: Design with Love
+    image: image1
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+
+  - title: Creative Features
+    image: image2
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+
+  - title: Thousands of Options
+    image: image3
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+
+right_features:
+  - title: Easy to Customize
+    image: image4
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+
+  - title: Clean Strategy
+    image: image5
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+
+  - title: Awesome Support
+    image: image6
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 

@@ -1038,14 +1038,14 @@ width: -webkit-calc(100% / 2);
 	font-weight: bold;
 }
 .price {
-	line-height: 120px;
-	height: 100px;
+	line-height: 80px;
+	height: 70px;
 	color: #FFF;
 	font-weight: 400;
 }
 .price h4 {
 	display: inline;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: normal;
 	margin-bottom: 0;
 }

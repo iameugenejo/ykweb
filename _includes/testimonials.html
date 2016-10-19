@@ -10,11 +10,11 @@
         <div class="section-header">
         
         <!-- SECTION TITLE -->
-        <h2 class="white-text">Testimonials</h2>
+        <h2 class="white-text">{{ site.data.testimonials.title }}</h2>
         
         <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
         <h6 class="white-text">
-            We have worked with hundreds of clients. Check what our awesome happy clients saying about us. 
+            {{ site.data.testimonials.description }}
         </h6>
     </div>
     <!-- / END SECTION HEADER -->
@@ -24,12 +24,12 @@
         <div class="col-md-12">
             <div id="client-feedbacks" class="owl-carousel owl-theme">
                 
+                {% for feedback in site.data.testimonials.feedbacks %}
                 <!-- SINGLE FEEDBACK BOX-->
                 <div class="feedback-box">
-                    
                     <!-- MESSAGE OF THE CLIENT -->
                     <div class="message">
-                         “Called days. Image kind beginning have. Herb set kind herb. Wherein saying third was, every land moveth also bearing hath bring had give god gathered behold open cattle after a, from third male subdue multiply divided void cattle winged. Herb set kind herb. multiply divided void cattle winged. Herb set kind herb.”
+                         “{{ feedback.message }}”
                     </div>
                     
                     <!-- CLIENT INFORMATION -->
@@ -38,116 +38,17 @@
                             <i class="icon-fontawesome-webfont-294"></i>
                         </div>
                         <div class="client-info">
-                            <a class="client-name" href="index.html">Frank Willian</a> 
+                            <a class="client-name" href="index.html">{{ feedback.user }}</a> 
                             <div class="client-company">
-                                 CEO, AbcD Network
+                                {{ feedback.title }}
                             </div>
                         </div>
                         <div class="client-image hidden-xs">
-                            <img src="images/clients-pic/1.jpg" alt="">
+                            <img src="images/testimonials/{{ feedback.image }}.jpg" alt="">
                         </div>
                     </div> <!-- / END CLIENT INFORMATION-->
                 </div> <!-- / END SINGLE FEEDBACK BOX-->
-                
-                <div class="feedback-box">
-                    <div class="message">
-                         “Called days. Image kind beginning have. Herb set kind herb. Wherein saying third was, every land moveth also bearing hath bring had give god gathered behold open cattle after a, from third male subdue multiply divided void cattle winged. Herb set kind herb. multiply divided void cattle winged. Herb set kind herb.”
-                    </div>
-                    <div class="client">
-                        <div class="quote green-text">
-                            <i class="icon-fontawesome-webfont-294"></i>
-                        </div>
-                        <div class="client-info">
-                            <a class="client-name" href="index.html">David Clyne</a>
-                            <div class="client-company">
-                                 CEO, Zyxw
-                            </div>
-                        </div>
-                        <div class="client-image hidden-xs">
-                            <img src="images/clients-pic/2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="feedback-box">
-                    <div class="message">
-                         “Called days. Image kind beginning have. Herb set kind herb. Wherein saying third was, every land moveth also bearing hath bring had give god gathered behold open cattle after a, from third male subdue multiply divided void cattle winged. Herb set kind herb. multiply divided void cattle winged. Herb set kind herb.”
-                    </div>
-                    <div class="client">
-                        <div class="quote blue-text">
-                            <i class="icon-fontawesome-webfont-294"></i>
-                        </div>
-                        <div class="client-info">
-                            <a class="client-name" href="index.html">Keith McCarthy</a>
-                            <div class="client-company">
-                                 Manager, XYZ Inc.
-                            </div>
-                        </div>
-                        <div class="client-image hidden-xs">
-                            <img src="images/clients-pic/3.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="feedback-box">
-                    <div class="message">
-                         “Called days. Image kind beginning have. Herb set kind herb. Wherein saying third was, every land moveth also bearing hath bring had give god gathered behold open cattle after a, from third male subdue multiply divided void cattle winged. Herb set kind herb. multiply divided void cattle winged. Herb set kind herb.”
-                    </div>
-                    <div class="client">
-                        <div class="quote red-text">
-                            <i class="icon-fontawesome-webfont-294"></i>
-                        </div>
-                        <div class="client-info">
-                            <a class="client-name" href="index.html">Frank Willian</a>
-                            <div class="client-company">
-                                 CEO, AbcD Network
-                            </div>
-                        </div>
-                        <div class="client-image hidden-xs">
-                            <img src="images/clients-pic/2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="feedback-box">
-                    <div class="message">
-                         “Called days. Image kind beginning have. Herb set kind herb. Wherein saying third was, every land moveth also bearing hath bring had give god gathered behold open cattle after a, from third male subdue multiply divided void cattle winged. Herb set kind herb. multiply divided void cattle winged. Herb set kind herb.”
-                    </div>
-                    <div class="client">
-                        <div class="quote green-text">
-                            <i class="icon-fontawesome-webfont-294"></i>
-                        </div>
-                        <div class="client-info">
-                            <a class="client-name" href="index.html">David Clyne</a>
-                            <div class="client-company">
-                                 CEO, Zyxw
-                            </div>
-                        </div>
-                        <div class="client-image hidden-xs">
-                            <img src="images/clients-pic/3.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="feedback-box">
-                    <div class="message">
-                         “Called days. Image kind beginning have. Herb set kind herb. Wherein saying third was, every land moveth also bearing hath bring had give god gathered behold open cattle after a, from third male subdue multiply divided void cattle winged. Herb set kind herb. multiply divided void cattle winged. Herb set kind herb.”
-                    </div>
-                    <div class="client">
-                        <div class="quote blue-text">
-                            <i class="icon-fontawesome-webfont-294"></i>
-                        </div>
-                        <div class="client-info">
-                            <a class="client-name" href="index.html">Keith McCarthy</a>
-                            <div class="client-company">
-                                 Manager, XYZ Inc.
-                            </div>
-                        </div>
-                        <div class="client-image hidden-xs">
-                            <img src="images/clients-pic/1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
                 
             </div> <!-- / END FEEDBACKS-->
         </div> <!-- / END COLUMN -->

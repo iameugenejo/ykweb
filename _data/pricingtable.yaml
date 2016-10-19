@@ -1,1 +1,66 @@
-title: Pricing
+menu: Pricing
+title: Packages
+description: We have 4 friendly packages for you. Check all the packages and choose the right one for you. 
+
+tiers:
+  - name: Basic
+    color: green
+    tiers:
+      - price: 15
+        features:
+          - 100GB Storage
+      - price: 20
+        features:
+          - 50GB Storage
+      - price: 25
+        features:
+          - All Themes
+
+  - name: Standard
+    color: blue
+    tiers:
+      - price: 21
+        features:
+          - 150GB Storage
+          - All Themes
+      - price: 26
+        features:
+          - 50GB Storage
+          - Auto Backup
+      - price: 31
+        features:
+          - Access to Tutorials
+
+  - name: Premium
+    color: red
+    tiers:
+      - price: 52
+        features:
+          - 200GB Storage
+          - All Themes
+          - Access to Tutorials
+      - price: 57
+        features:
+          - + 100GB Storage
+          - Auto Backup
+      - price: 62
+        features:
+          - Premium Security
+
+  - name: Ultimate
+    color: yellow
+    tiers:
+      - price: 80
+        features:
+          - 300GB Storage
+          - All Themes
+          - Access to Tutorials
+      - price: 85
+        features:
+          - 200GB Storage
+          - Auto Backup
+      - price: 90
+        features:
+          - Ultimate Security
+
+          

@@ -1,1 +1,40 @@
-title: Team
+menu: Team
+title: Our Team
+descripition: Check our awesome team memebers who always work hard to provide quality products.
+
+# images are under images/team/*.jpg
+members:
+  - name: JASON DANIELS
+    position: Founder
+    image: pic1
+    shout: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+
+  - name: PATRICIA MEDINA
+    position: Senior Designer
+    image: pic2
+    shout: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+
+  - name: EUGENE LANE
+    position: Lead Developer
+    image: pic3
+    shout: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+
+  - name: KATHY HUDSON
+    position: Art Director
+    image: pic4
+    shout: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+
+  - name: VINCENT MCCOY
+    position: Project Manager
+    image: pic5
+    shout: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+
+  - name: GARY MORRISON
+    position: Photographer
+    image: pic6
+    shout: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+
+  - name: PATRICK SANCHEZ
+    position: Business Development
+    image: pic7
+    shout: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.

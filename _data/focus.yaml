@@ -1,1 +1,32 @@
-title: Focus
+menu: Focus
+
+title: Our Focus
+description: We design & develop qaulity products to help small & medium level business.
+
+# images are under images/focus/*.png
+focuses:
+  - title: WEB DESIGN
+    image: image1
+    description: Created cattle form fruit. Saying from given together face without waters, whose. Second first. Face it saw give creature was thing. Over upon is brought. Him you'll above kind set
+  - title: PHOTOGRAPHY
+    image: image2
+    description: Created cattle form fruit. Saying from given together face without waters, whose. Second first. Face it saw give creature was thing. Over upon is brought. Him you'll above kind set
+  - title: EMAIL MARKETING
+    image: image3
+    description: Created cattle form fruit. Saying from given together face without waters, whose. Second first. Face it saw give creature was thing. Over upon is brought. Him you'll above kind set
+  - title: SEO & SMM
+    image: image4
+    description: Created cattle form fruit. Saying from given together face without waters, whose. Second first. Face it saw give creature was thing. Over upon is brought. Him you'll above kind set
+
+other_focus:
+  title: ALSO WE FOCUS ON
+  focuses:
+    - WEB APPLICATIONS
+    - SEARCH ENGINE OPTIMIZATION
+    - CLOUD STORAGE
+    - PROJECT MANAGEMENT
+    - IOS APP
+    - ANDROID APP
+    - WINDOWS APP
+    - UX STRATEGY
+

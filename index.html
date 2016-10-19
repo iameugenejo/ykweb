@@ -44,9 +44,9 @@ scripts:
 			<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
 				<li><a href="#home">{{ site.data.home.title }}</a></li>
 				{% for menu in site.data.page.menus %} 
-					<li><a href="#{{menu}}">{{ site.data[menu].title }}</a></li>
+					<li><a href="#{{menu}}">{{ site.data[menu].menu }}</a></li>
 				{% endfor %}
-				<li><a href="#contact">{{ site.data.contact.title }}</a></li>
+				<li><a href="#contact">{{ site.data.contact.menu }}</a></li>
 			</ul>
 			</nav>
 		</div>
@@ -71,7 +71,7 @@ scripts:
         	{% for message in site.data.home.messages %}
 			<div class="col-lg-4 col-sm-4">
 				<div class="short-text">
-					{% if message.icon %}<i class="icon icon-{{ message.icon }}"></i> {% endif %}{{ message.message }}
+					{{ message }}
 				</div>
 			</div>
 			{% endfor %}
@@ -119,7 +119,7 @@ scripts:
 	<!-- COMPANY PHONE NUMBER -->
 	<div class="col-md-2 company-details">
 		<div class="icon-top blue-text">
-			<a href="tel:{{ site.data.contact.phone | replace: ' ' ''}}">
+			<a href="tel:{{ site.data.contact.phone | replace: ' ', '' }}">
 				<i class="icon-fontawesome-webfont-101"></i>
 			</a>
 		</div>

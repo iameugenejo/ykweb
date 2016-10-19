@@ -1,7 +1,9 @@
-title: Home
+menu: Home
 
 intro: Affordable Quality services for Small Businesses
 
+# available colors: red, green, blue, yellow
+# link must be \#<menu> or external link (e.g., http://google.com)
 buttons:
   - link: \#works
     title: Our Works
@@ -10,13 +12,9 @@ buttons:
     title: Our Packages
     color: green
 
-# icon from http://fontawesome.io/icons/
 messages:
-  - message: Fixed price for packages
-    icon: fontawesome-webfont-358
+  - Fixed price for packages
 
-  - message: Quality product in time
-    icon: fontawesome-webfont-286
+  - Quality product in time
 
-  - message: Satisfaction guranteed
-    icon: fontawesome-webfont-347
+  - Satisfaction guranteed

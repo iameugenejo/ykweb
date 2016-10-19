@@ -1,2 +1,7 @@
 ---
+page_gen:
+  - data: projects
+    template: project
+    name: key
+    dir: projects
 ---

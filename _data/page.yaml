@@ -1,5 +1,6 @@
 title: YK Hair Salon
 
+# comment or re-order following for menu control
 menus:
   - focus
   - works
@@ -10,6 +11,7 @@ menus:
   - products
   - testimonials
 
+# note: copyright year is auto generated whenever the site is saved
 copyright: Get it Salon All Rights Reserved
 
 facebook:

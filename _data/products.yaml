@@ -1,1 +1,30 @@
+menu: Products
 title: Products
+description: We design & develop qaulity products to help small & medium level business.
+
+# images are in images/products/*.png
+# images are numbered from 1 ... n in the same order as the following list
+products:
+  - title: One Light
+    category: WordPress Theme
+    price: 17
+    old_price: 36
+    description: Creative WordPress Theme
+    
+  - title: Telfez
+    category: WordPress Theme
+    price: 17
+    old_price: 36
+    description: Creative WordPress Theme
+    
+  - title: Calender
+    category: Widget
+    price: 9
+    old_price: 15
+    description: Beautiful Calender Widget
+
+    
+  - title: Toolbar
+    category: UI Element
+    price: 11
+    description: Beautiful Toolbar with Icons
