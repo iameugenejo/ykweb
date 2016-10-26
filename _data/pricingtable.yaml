@@ -1,22 +1,16 @@
 menu: Pricing
 title: Packages
-description: We have 4 friendly packages for you. Check all the packages and choose the right one for you. 
+description: We have friendly pricing for you. Check all our programs and choose the right one for you 
 
 tiers:
-  - name: Basic
+  - name: HAIR CUT
     color: green
     tiers:
-      - price: 15
-        features:
-          - 100GB Storage
-      - price: 20
-        features:
-          - 50GB Storage
       - price: 25
         features:
-          - All Themes
-
-  - name: Standard
+          - Styling included
+      
+  - name: PERM
     color: blue
     tiers:
       - price: 21
