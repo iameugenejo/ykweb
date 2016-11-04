@@ -4,11 +4,11 @@ descripition: Check our awesome team memebers who always work hard to provide qu
 
 # images are under images/team/*.jpg
 members:
-  - name: JASON DANIELS
+  - name: Veronica 
     position: Founder
-    image: pic1
-    shout: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
-
+    image: Veronica.jpg
+    shout: 30 years experienced professional hair designer. 
+    
   - name: PATRICIA MEDINA
     position: Senior Designer
     image: pic2
