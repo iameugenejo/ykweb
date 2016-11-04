@@ -6,55 +6,58 @@ tiers:
   - name: HAIR CUT
     color: green
     tiers:
-      - price: 25
+      - price: 25-30
         features:
-          - Styling included
+          - Basic Styling included
+          - Duration: 30-60min.
       
   - name: PERM
     color: blue
     tiers:
-      - price: 21
+      - price: 70-120 
         features:
-          - 150GB Storage
-          - All Themes
-      - price: 26
+          - Regular Wave Perm
+          - Duration: 60-120min.
+      - price: 150-300
         features:
-          - 50GB Storage
-          - Auto Backup
-      - price: 31
+          - Digital Perm
+          - - Duration: 60-150min.
+      - price: 150-300
         features:
-          - Access to Tutorials
-
-  - name: Premium
+          - Japenese Straight
+          - Duration: 60-150min.
+  
+    
+  - name: Color
     color: red
     tiers:
-      - price: 52
+      - price: 60-150
         features:
-          - 200GB Storage
-          - All Themes
-          - Access to Tutorials
-      - price: 57
+          - Color
+          - Duration: 60-90min.
+      - price: 60-150
         features:
-          - + 100GB Storage
-          - Auto Backup
-      - price: 62
-        features:
-          - Premium Security
+          - Highlight
+          - Duration: 60-120min.
 
-  - name: Ultimate
+  - name: Hair Care/Style
     color: yellow
     tiers:
-      - price: 80
+      - price: 70-120
         features:
-          - 300GB Storage
-          - All Themes
-          - Access to Tutorials
-      - price: 85
+          - Hair Treatment
+          - Duration: 60-120min.
+      - price: 60-150
         features:
-          - 200GB Storage
-          - Auto Backup
-      - price: 90
+          - Coating
+          - Duration: 60-90min.
+      - price: 50
         features:
-          - Ultimate Security
+          - Up Style
+          - Duration: 30-90min.
+      - price: 30-50
+        features:
+          - Blow Dry
+          - Duration: 30-60min.
 
           
